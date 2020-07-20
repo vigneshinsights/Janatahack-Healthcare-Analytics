@@ -10,20 +10,32 @@ The Process:
 2.	During the camp, People who “ShowUp” either undergo the medical tests or visit stalls depending on the format of health camp.
  
 Other things to note:
+
 •	Since this is a completely voluntary activity for the working professionals, MedCamp usually has little profile information about these people.
+
 •	For a few camps, there was hardware failure, so some information about date and time of registration is lost.
+
 • MedCamp runs 3 formats of these camps. The first and second format provides people with an instantaneous health score. The third format provides information about several health issues through various awareness stalls.
 
 Favorable outcome:
+
 •	For the first 2 formats, a favourable outcome is defined as getting a health_score, while in the third format it is defined as visiting at least a stall.
+
 •	You need to predict the chances (probability) of having a favourable outcome.
  
 
 Data Description
 •	Train.zip contains the following 6 csvs alongside the data dictionary that contains definitions for each variable
+
 •	Health_Camp_Detail.csv – File containing Health_Camp_Id, Camp_Start_Date, Camp_End_Date and Category details of each camp.
+
 •	Train.csv – File containing registration details for all the test camps. This includes Patient_ID, Health_Camp_ID, Registration_Date and a few anonymized variables as on registration date.
+
 •	Patient_Profile.csv – This file contains Patient profile details like Patient_ID, Online_Follower, Social media details, Income, Education, Age, First_Interaction_Date, City_Type and Employer_Category
+
 •	First_Health_Camp_Attended.csv – This file contains details about people who attended health camp of first format. This includes Donation (amount) & Health_Score of the person.
+
 •	Second_Health_Camp_Attended.csv - This file contains details about people who attended health camp of second format. This includes Health_Score of the person.
+
 •	Third_Health_Camp_Attended.csv - This file contains details about people who attended health camp of third format. This includes Number_of_stall_visited & Last_Stall_Visited_Number.
+
