@@ -1,12 +1,39 @@
 # Janatahack-Healthcare-Analytics
+
 Janatahack: Healthcare Analytics in Analytics Vidhya Platform
+
+Analytics vidhya recently organized a Healthcare Analytics Hackathon for two days. I participated in this hackathon and managed to secure 6th rank (top 1 percentile) out of 14.2k participants with a score of 0.842(ROC-AUC Score)
+
+https://lnkd.in/gqK22bX
+
+where we were asked to #predict the favorable outcome:
+
+For the first 2 formats, a favorable outcome is defined as getting a health score, while in the third format it is defined as visiting at least a stall. We need to predict the chances (probability) of having a favorable outcome.
+
+Here are some of my key takeaways from the experience:
+
+1. Exploratory Analysis will be the differentiator
+
+2. All it takes to win is one or two very good features and elimination of noise variables
+
+3. Believe in your CV and don’t be overwhelmed by what the Public leader-board says
+
+4. Ensembling & Model Averaging
+
+
+Problem Statement
+
 Congratulations – you have been hired as Chief Data Scientist of MedCamp – a not for profit organization dedicated in making health conditions for working professionals better. MedCamp was started because the founders saw their family suffer due to bad work life balance and neglected health.
-MedCamp organizes health camps in several cities with low work life balance. They reach out to working people and ask them to register for these health camps. For those who attend, MedCamp provides them facility to undergo health checks or increase awareness by visiting various stalls (depending on the format of camp). 
+
+MedCamp organizes health camps in several cities with low work life balance. They reach out to working people and ask them to register for these health camps. For those who attend, MedCamp provides them facility to undergo health checks or increase awareness by visiting various stalls (depending on the format of camp).
+
 MedCamp has conducted 65 such events over a period of 4 years and they see a high drop off between “Registration” and Number of people taking tests at the Camps. In last 4 years, they have stored data of ~110,000 registrations they have done.
+
 One of the huge costs in arranging these camps is the amount of inventory you need to carry. If you carry more than required inventory, you incur unnecessarily high costs. On the other hand, if you carry less than required inventory for conducting these medical checks, people end up having bad experience.
 
 The Process:
 1.	MedCamp employees / volunteers reach out to people and drive registrations.
+
 2.	During the camp, People who “ShowUp” either undergo the medical tests or visit stalls depending on the format of health camp.
  
 Other things to note:
